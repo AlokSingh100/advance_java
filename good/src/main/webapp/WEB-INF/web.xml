@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>good</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+	
+	
+	<!-- 
+	<servlet>
+		<servlet-name>MyServlet</servlet-name>
+		<servlet-class>batter.best</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet> 
+	
+	<servlet-mapping>
+		<servlet-name>MyServlet</servlet-name>
+		<url-pattern>/test</url-pattern>
+		
+	</servlet-mapping>
+ <servlet>
+ <servlet-name>MrSevlet</servlet-name>
+ <servlet-class>batter.count</servlet-class>
+ <load-on-startup>2</load-on-startup>
+ </servlet>
+ 
+ <servlet>
+ <servlet-name>SconfSev</servlet-name>
+ <servlet-class>sevletConf.sevconf</servlet-class>
+ <init-param>
+ <param-name>Bank</param-name>
+ <param-value></param-value>
+ </init-param>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>SconfSev</servlet-name>
+ <url-pattern>/conf</url-pattern>
+ </servlet-mapping>
+ 
+  -->
+ 
+</web-app>
