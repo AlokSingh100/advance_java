@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.form{
+   
+    width: 600px;
+    border: 10px solid;
+    margin: auto;
+    padding: 38px;
+    font-style: initial;
+}
+.form.select{
+margin: 10px;
+
+}
+
+    </style>
+</head>
+<body>
+    <form action="order" class="form">
+    <h1>Pizza Order</h1>
+       Name:- <input type="text" name="Name"><br><br>
+    Select The Crust input:<br><br>
+    <select name="Deep Crust" id="Crust" ><br>
+        <option value="Cheese-filled">Cheese-filled</option>
+        <option value="Cauliflower">Cauliflower</option>
+        <option value="OpelNew York Crust">OpelNew York Crust</option>
+        <option value="Sicilian Crust">Sicilian Crust</option>
+      </select><br><br>
+      Select The best Topping:<br> 
+    
+      <input type="checkbox" name="Topping" id="Bacon" value="Bacon">
+      <label for="Bacon">Bacon</label><br><br>
+      <input type="checkbox" name="Topping" id="Onions" value="Onions">
+      <label for="Onions">Onions</label><br><br>
+      
+      <input type="checkbox" name="Topping" id="Tomatoes"value="Tomatoes">
+      <label for="Tomatoes">Tomatoes</label><br><br>
+      <input type="checkbox" name="Topping" id="Peppers"value="Peppers">
+      <label for="Peppers">Peppers</label><br><br>
+      <input type="checkbox" name="Topping" id="Mushrooms"value="Mushrooms">
+      <label for="Mushrooms">Mushrooms</label><br><br>
+
+
+      Select one Free Appetizer:<br><br>
+      <input type="radio" name="Appetizer" id="Paneer tikka"value="Paneer Tikka">
+      <label for="Paneer tikka">Paneer Tikka</label><br><br>
+      <input type="radio" name="Appetizer" id="Dahi vada"value="Dahi Vada">
+      <label for="Dahi vada">Dahi Vada</label><br><br>
+      <input type="radio" name="Appetizer" id="Chilli paneer"value="Chilli Paneer">
+      <label for="Chilli paneer">Chilli Paneer</label><br><br>
+
+      Enter your Address:<br><br>
+      <textarea name="Address" id="Address" cols="10" rows="4"></textarea><br><br>
+
+      Payment Methods:<br><br>
+      <input type="radio" name="Payment" id="Google Pay"value="Google Pay">
+      <label for="Google Pay">Google Pay</label>
+      <input type="radio" name="Payment" id="PhonePe"value="PhonePe">
+      <label for="PhonePe">PhonePe</label>
+      <input type="radio" name="Payment" id="PayPal"value="PayPal">
+      <label for="PayPal">PayPal</label>
+
+      <br><br>
+      <input type="submit">
+</form>
+</body>
+</html>
