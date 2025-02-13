@@ -18,8 +18,7 @@
 
 
 <%
-out.print("name=  "+sap.getName());
-out.print("  sal="+sap.getSal());
+
 
 doa ob=new doa();
 ob.save(sap);
