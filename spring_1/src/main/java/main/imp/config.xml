@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean name="pass" class="main.imp.Passport">
+    <property name="num" value="54215"/>
+    <property name="valid_year" value="54515"/>
+    </bean>
+    
+    
+    
+    <bean name="per" class="main.imp.person">
+    <property name="id" value="204"/>
+    <property name="name" value="alok"/>
+    <property name="age" value="23"/>
+    <property name="phno">
+    <list>
+    <value>45421</value>
+    <value>45421</value>
+    <value>45421</value>
+    <value>45421</value>
+    </list>
+    </property>
+    
+    <property name="hobbies">
+
+<set>
+
+<value>Swiming</value>
+
+<value>Singing</value>
+
+<value>Readind</value>
+
+</set>
+
+</property>
+
+<property name="card">
+
+<map>
+
+<entry key="3456" value="HDPC"/>
+
+<entry key="34563" value="SBI"/>
+
+
+</map>
+
+</property>
+
+<property name="pass">
+
+<ref bean="pass"/>
+
+</property>
+    
+    
+    </bean>
+    
+    
+    
+    
+    
+    </beans>
