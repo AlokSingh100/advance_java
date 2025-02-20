@@ -6,7 +6,7 @@
 
     <!-- bean definitions here -->
 
-<bean name="emp" class="mava1.spring_1.Employee">
+<bean name="emp" class="mava1.spring_1.Employee" scope="">
 
 <constructor-arg index="0" value="145"/>
 <constructor-arg index="1" value="vinta"/>
