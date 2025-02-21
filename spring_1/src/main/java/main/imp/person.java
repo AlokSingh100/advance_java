@@ -12,7 +12,7 @@ public class person {
 	List<String> phno;
 	Set<String> hobbies;
 	Map<String, String>card;
-	private Passport pass;
+	
 	public person() {
 		super();
 		// TODO Auto-generated constructor stub

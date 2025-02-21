@@ -51,16 +51,12 @@
 
 </map>
 
-</property>
-
-<property name="pass">
-
-<ref bean="pass"/>
-
-</property>
-    
-    
+</property>    
     </bean>
+    
+    <bean>
+    </bean id="pass" class="main.imp.Passport" parent="per">
+    <constructor-arg ref=""
     
     
     

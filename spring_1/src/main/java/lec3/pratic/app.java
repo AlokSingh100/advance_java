@@ -12,6 +12,14 @@ public class app {
 		ApplicationContext con=new ClassPathXmlApplicationContext("lec3/pratic/newFile.xml");
 		pacnac ob=(pacnac) con.getBean("pacnic");
 		ob.name();
+		ob.getId();
+		System.out.println(ob.hello("testing"));
+		
+		try {
+			ob.printThrowException();
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
 	}
 
 }
