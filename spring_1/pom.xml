@@ -6,17 +6,13 @@
   <artifactId>spring_1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>spring_1</name>
   <url>http://maven.apache.org</url>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
   <dependencies>
-  
-  <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjtools -->
+ 
 <dependency>
     <groupId>org.aspectj</groupId>
     <artifactId>aspectjtools</artifactId>
